@@ -1,3 +1,5 @@
 ---
-- name: Example from an Ansible Playbook
-  ansible.builtin.ping:
+- name: Ping our servers
+  tasks:
+    name: Ping
+    ansible.builtin.ping:
